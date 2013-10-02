@@ -1,0 +1,34 @@
+# Robots.txt file created by http://www.webtoolcentral.com
+# For domain: http://ssa.uoregon.edu
+
+# All robots will spider the domain
+User-agent: *
+Disallow:
+
+# Disallow Crawler V 0.2.1 admin@crawler.de
+#User-agent: Crawler V 0.2.1 admin@crawler.de
+#Disallow: /
+
+# Disallow directory /checkin/
+User-agent: *
+Disallow: /checkin/
+
+# Disallow directory /notes/
+User-agent: *
+Disallow: /notes/
+
+# Disallow directory /tutorreq/
+User-agent: *
+Disallow: /tutorreq/
+
+User-agent: *
+Disallow: /msgcenter/
+
+User-agent: *
+Disallow: /mgr/
+
+User-agent: *
+Disallow: /progress/
+
+User-agent: *
+Disallow: /files/
